@@ -31,14 +31,14 @@
 				<ul class="nav navbar-nav navbar-left">
 
 					<!--  start drop down -->
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
+					<li class="dropdown"><a th:href="@{/bookshelf}" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">Books <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-						</ul></li>
+						 <ul class="dropdown-menu">
+							<li><a th:href="@{/bookshelf}">Browse the bookshelf</a></li>
+							<li><a href="#">Store hours</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul></li> 
 					<!-- end drop down -->
 
 					<!-- start search bar -->
